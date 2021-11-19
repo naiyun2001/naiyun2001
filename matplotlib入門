@@ -1,0 +1,8 @@
+# 先匯入所需要的套件
+import matplotlib.pyplot as plt
+import numpy as np 
+# import pandas as pd
+
+data = np.arange(10)
+print(data) 
+plt.plot(data)
